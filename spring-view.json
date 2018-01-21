@@ -1,0 +1,12 @@
+{
+    "spring_view": {
+		"prefix": "insert-view",
+		"description": "Insert SpringMVC's bean for view",
+		"body": [
+			"<bean class='org.springframework.view.InternalResourceViewResolver'>",
+			"\t<property name='prefix' value='/WEB-INF/${1:view-folder}/' />",
+			"\t<property name='suffix' value='.${2:file-extension}' />",
+			"</bean>"
+		]
+	}
+}

@@ -1,0 +1,1 @@
+# VsCode snippets for Spring xml mapping

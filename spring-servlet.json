@@ -1,0 +1,20 @@
+{
+    "spring_servlet": {
+		"prefix": "insert-spring",
+		"body": [
+			"<servlet>",
+			"\t<servlet-name>${1:servlet-name}</servlet-name>",
+			"\t<servlet-class>org.springframework.web.servlet.ServletDispatcher</servlet-class>",
+			"\t<init-param>",
+			"\t\t<param-name>contextConfigLocation</param-name>",
+			"\t\t<param-value>/WEB-INF/spring-context.xml</param-value>",
+			"\t</init-param>",
+			"</servlet>",
+			"<servlet-mapping>",
+			"\t<servlet-name>${1:servlet-name}</servlet-name>",
+			"\t<url-pattern>/</url-pattern>",
+			"</servlet-mapping>",
+		],
+		"description": "Maps SpringMVC's servlet on web.xml"
+	}
+}

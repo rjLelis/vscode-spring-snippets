@@ -1,0 +1,14 @@
+{
+    "dependency_injection": {
+		"prefix": "insert-ioc",
+		"description": "Insert SpringMVC's bean for inversion of control",
+		"body": [
+			"<bean id='${1:db_Datasource}' class='org.apache.commons.dbcp.BasicDataSource' />",
+			"\t<property name='driverClassName' value='${2:db_driver}' />",
+			"\t<property name='url' value='jdbc:${3:db_name}/${4:path}/${5:db_name}' />",
+			"\t<property name='user' value='${6:user}' />",
+			"\t<property name='password' value='${7:db_password}' />",
+			"</bean>"
+		]
+	}
+}
