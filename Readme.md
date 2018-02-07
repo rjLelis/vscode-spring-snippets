@@ -2,7 +2,7 @@
 
 A collection of snippets for Spring xml mapping
 
-## snippets
+## Usage
 
 | snippets | content |
 |----------|---------|
@@ -10,3 +10,5 @@ A collection of snippets for Spring xml mapping
 | `spring-xmls` | spring's xml schemas|
 | `insert-view` | maps the path to spring to find the view |
 | `insert-ioc` | inserts the dependency injection configuration|
+
+Note: i know we don't use xml for spring configuration anymore, i just find it fun to make some snippets and put it out there :smile:
