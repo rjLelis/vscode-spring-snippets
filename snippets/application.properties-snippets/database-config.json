@@ -1,0 +1,12 @@
+{
+    "JPA configuration":{
+        "prefix": "jpa-config",
+        "body": [
+            "spring.jpa.hibernate.ddl-auto=${1:none/create/update/create-drop}",
+            "spring.datasource.url=jdbc:${2:database}://localhost:${3:port}/${4:database-name}",
+            "spring.datasource.username=${5:username}",
+            "spring.datasource.password=${6:password}"
+        ],
+        "description": "Sets up jpa in the spring project"
+        }
+}

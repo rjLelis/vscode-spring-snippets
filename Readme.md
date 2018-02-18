@@ -1,8 +1,6 @@
-# VsCode snippets for Spring xml mapping
+# VsCode snippets for for Spring configuration
 
-A collection of snippets for Spring xml mapping
-
-## Usage
+## XML mapping(for those whose still use it)
 
 | snippets | content |
 |----------|---------|
@@ -10,5 +8,10 @@ A collection of snippets for Spring xml mapping
 | `spring-xmls` | spring's xml schemas|
 | `insert-view` | maps the path to spring to find the view |
 | `insert-ioc` | inserts the dependency injection configuration|
+
+## application.properties
+| snippets | content |
+| -------- | ------- |
+| `jpa-config` | Sets up jpa in the spring project |
 
 Note: i know we don't use xml for spring configuration anymore, i just find it fun to make some snippets and put it out there :smile:
